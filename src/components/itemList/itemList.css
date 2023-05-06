@@ -67,11 +67,12 @@
 }
 
 .item-description {
-    margin-bottom: 10px;
-    word-wrap: break-word;
-    max-width: 400px;
-
-}
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
 
 .add-to-cart-btn {
