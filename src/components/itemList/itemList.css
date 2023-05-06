@@ -1,0 +1,124 @@
+/* ItemList.css */
+
+.item-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer and Edge */
+  }
+  
+  .scroll::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, and Opera */
+  }
+
+
+
+.item-card {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: calc(100% - 100px);
+    /* Subtract the padding from the width */
+}
+
+.item-image {
+    flex-shrink: 0;
+    /* Prevent the image from shrinking */
+    width: 100px;
+    height: 100%;
+    /* Set the height to 100% */
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.item-details div {
+    margin-right: 10px;
+}
+
+
+.item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item-description {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    max-width: 400px;
+
+}
+
+
+.add-to-cart-btn {
+    background-color: #A5F951;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #5fa11d;
+}
+
+
+/* Media queries */
+@media (max-width: 768px) {
+    .item-card {
+        flex-direction: column;
+        /* Change to column layout on mobile */
+        align-items: flex-start;
+        /* Align items to the start on mobile */
+        padding: 10px;
+        /* Reduce padding on mobile */
+    }
+
+    .item-image {
+        margin-right: 0;
+        /* Remove margin on mobile */
+        margin-bottom: 10px;
+        /* Add margin bottom on mobile */
+    }
+
+    .item-details {
+        align-items: flex-start;
+        /* Align items to the start on mobile */
+    }
+
+    .item-price-large {
+        margin-top: 10px;
+        /* Add margin top on mobile */
+    }
+
+    .add-to-cart-btn {
+        max-width: 100%;
+        /* Set max width to 100% on mobile */
+    }
+}

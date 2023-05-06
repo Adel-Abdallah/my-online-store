@@ -1,0 +1,27 @@
+.filter-list {
+    list-style: none;
+    padding: 0;
+}
+
+.filter-list li {
+    display: block;
+    /* Change display to block for vertical alignment */
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    /* Align the text to the left */
+}
+
+.filter-list li.selected {
+    background-color: #A5F951;
+}
+
+.filter-list li {
+    height: 30px;
+}
+
+.item-category{
+    color: #68BC80;
+    font-size: 14px;
+    font-weight: 600;
+}
