@@ -236,7 +236,7 @@ function App() {
             {cartItems.length === 0 ? (
               <p>Your cart is empty</p>
             ) : (
-              cartItems.map((item) => (
+              cartItems.slice().reverse().map((item) => (
                 <CartItem
                   key={item.id}
                   item={item}

@@ -73,7 +73,7 @@
 }
 
 .remove-item-btn:hover {
-    background-color: darkred;
+    background-color: #f44336;
 }
 
 .remove-item-btn:focus {

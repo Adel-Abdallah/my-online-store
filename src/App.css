@@ -48,7 +48,7 @@
 
 .summary-row .item-price-small {
   font-weight: bold;
-  color: #c82333;
+  color: #f44336;
   margin-left: 5px;
   font-size: 13px;
   width: 100px;
@@ -63,14 +63,14 @@
   width: 100px;
   text-align: center;
   font-weight: bold;
-  color: #c82333;
+  color: #f44336;
   text-align: right;
 }
 
 
 .item-price-small {
   font-weight: bold;
-  color: #c82333;
+  color: #f44336;
   margin-left: 5px;
   font-size: 13px;
   width: 100px;
