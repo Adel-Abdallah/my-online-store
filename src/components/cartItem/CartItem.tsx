@@ -30,7 +30,7 @@ const CartItem: React.FC<CartItemProps> = ({ item, quantityMap, onUpdateQuantity
             <img src={item.imageUrl} alt={item.productName} />
             <div className="cart-item-details">
                 <h4>{item.productName}</h4>
-                <p className='item-price-small'>${item.unitPrice.toFixed(2)}</p>
+                <p className='item-price-small'>&#8369;{item.unitPrice.toFixed(2)}</p>
             </div>
                 <div className="quantity-input-container">
                     <span className="arrow" onClick={handleDecreaseQuantity}>

@@ -255,7 +255,7 @@ function App() {
               </div>
               <div className="summary-row">
                 <span>Total amount: </span>
-                <span className='item-price-large'>${cartSummary.totalAmount.toFixed(2)}</span>
+                <span className='item-price-large'>&#8369;{cartSummary.totalAmount.toFixed(2)}</span>
               </div>
               <Checkout onCheckout={handleCheckout} onClearCart={handleClearCart} />
             </div>

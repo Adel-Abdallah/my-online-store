@@ -36,7 +36,7 @@ const ItemList: React.FC<ItemListProps & SortProps> = ({ items, onAddToCart, sea
                             <p className="item-description">{item.description}</p>
                         </div>
                         <div>
-                            <p className="item-price-large">{item.unitPrice}</p>
+                            <p className="item-price-large">&#8369;{item.unitPrice}</p>
                             <button className="add-to-cart-btn" onClick={() => onAddToCart(item.id)}>
                                 Add to Cart
                             </button>
