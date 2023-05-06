@@ -3,8 +3,8 @@
 .item-list-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    height: 100vh;
+    height: 80vh;
+    margin: auto;
 }
 
 .scroll {
@@ -16,6 +16,7 @@
     /* Firefox */
     -ms-overflow-style: none;
     /* Internet Explorer and Edge */
+
   }
   
   .scroll::-webkit-scrollbar {
