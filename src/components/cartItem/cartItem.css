@@ -37,7 +37,7 @@
 .cart-item-details h4 {
     margin: 0;
     font-size: 12px;
-    font-weight:500
+    font-weight: 500
 }
 
 .cart-item-details p {
@@ -157,4 +157,15 @@
 
 .arrow i {
     font-size: 12px;
+}
+
+/* Styles for screens smaller than 800px */
+@media (max-width: 800px) {
+    .cart-item {
+       display: none;
+    }
+    .cart-items-wrapper {
+        padding: 0px; 
+    }
+
 }

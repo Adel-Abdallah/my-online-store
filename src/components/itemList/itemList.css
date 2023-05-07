@@ -93,35 +93,8 @@
 
 
 /* Media queries */
-@media (max-width: 768px) {
-    .item-card {
-        flex-direction: column;
-        /* Change to column layout on mobile */
-        align-items: flex-start;
-        /* Align items to the start on mobile */
-        padding: 10px;
-        /* Reduce padding on mobile */
-    }
-
-    .item-image {
-        margin-right: 0;
-        /* Remove margin on mobile */
-        margin-bottom: 10px;
-        /* Add margin bottom on mobile */
-    }
-
-    .item-details {
-        align-items: flex-start;
-        /* Align items to the start on mobile */
-    }
-
-    .item-price-large {
-        margin-top: 10px;
-        /* Add margin top on mobile */
-    }
-
-    .add-to-cart-btn {
-        max-width: 100%;
-        /* Set max width to 100% on mobile */
+@media (max-width: 800px) {
+    .item-list-container{
+        margin: 90px 0px
     }
 }
